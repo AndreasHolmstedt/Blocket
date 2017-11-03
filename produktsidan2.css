@@ -99,7 +99,8 @@ input {
 }
 
 .sok img{
-    width: 20px;
+    width: 1em;
+    padding-right: 0.3em;
 }
 
 .laggtill{
@@ -111,6 +112,11 @@ input {
     font-weight: 300;
     display: inline;
     border: 1px solid grey;
+}
+
+.laggtill img {
+    width: 1em;
+    padding-right: 0.3em;
 }
 
 .laggtill:hover {
@@ -209,7 +215,7 @@ input {
 
 .treeanimation4 {
      position: relative;
-    right: -45%;
+    right: -45vw;
     display: inline;
     content: url(resources/tree2.png);
     width: 4.8em;
@@ -219,7 +225,7 @@ input {
 
 .treeanimation5 {
      position: relative;
-    right: -40%;
+    right: -40vw;
     display: inline;
     content: url(resources/tree2.png);
     width: 4em;
@@ -229,7 +235,7 @@ input {
 
 .houseanimation1 {
     position: relative;
-    right: -43%;
+    right: -43vw;
     display: inline;
     content: url(resources/house1.png);
     width: 4em;
