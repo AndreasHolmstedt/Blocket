@@ -8,16 +8,20 @@
 body{
     background-color: white;
 }
-
+ 
 
 
 .navigation {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     border-bottom: 1px solid black;
     background-color: lightblue;
     height: 3em;
     margin-bottom: 3em;
+}
+
+.navopt:nth-last-child(1){
+    margin-right: 3%;
 }
 
 
@@ -134,39 +138,50 @@ input {
     height: 5em;
     z-index: 10;
     transform: translateY(-5.1em);
-    border-top: 2px solid black;
+    border-top: 2px solid grey;
 }
 .caranimation{
     position: relative;
     bottom: -3.8em;
     left: 13%;
     display: inline;
-    transform: translateX(80em);
-    transition: all 10s cubic-bezier(.85,.06,.34,.87);
+    transform: translateX(50vw);
+    transition: all 20s cubic-bezier(.85,.06,.34,.87);
     transition-delay: 10s;
     margin-left: 10%;
     content: url(resources/car1.png);
     width: 3em;
 }
 
-.cloudanimation{
+.cloudanimation1{
     position: relative;
     bottom: 7em;
-    left: 120em;
+    left: 80%;
     display: inline;
-    transform: translateX(-79em);
-    transition: all 120s;
-    content: url(resources/cloud.png);
+    transform: translateX(-70vw);
+    transition: all 70s;
+    content: url(resources/cloud1.png);
     width: 3em;
 }
 
+.cloudanimation2{
+    position: relative;
+    bottom: 7em;
+    left: 70%;
+    display: inline;
+    transform: translateX(-70vw);
+    transition: all 100s;
+    content: url(resources/cloud2.png);
+    width: 3.4em;
+}
+
 .treeanimation1 {
-    margin-left: 15%;
+    margin-left: 10%;
     display: inline;
     content: url(resources/tree1.png);
     width: 5em;
     transform: translatey(-5em);
-    transition: transform 2s;
+    transition: transform 3s;
         
 }
 
@@ -189,7 +204,7 @@ input {
     content: url(resources/tree1.png);
     width: 4.8em;
     transform: translatey(-5em);
-    transition: transform 2s;
+    transition: transform 5s;
 }
 
 .treeanimation4 {
@@ -199,41 +214,53 @@ input {
     content: url(resources/tree2.png);
     width: 4.8em;
     transform: translatey(-5em);
-    transition: transform 2s;
+    transition: transform 4s;
 }
 
 .treeanimation5 {
      position: relative;
-    right: -44%;
+    right: -40%;
     display: inline;
     content: url(resources/tree2.png);
     width: 4em;
     transform: translatey(-5em);
-    transition: transform 2s;
+    transition: transform 3s;
 }
 
 .houseanimation1 {
     position: relative;
-    right: -44%;
+    right: -43%;
     display: inline;
     content: url(resources/house1.png);
     width: 4em;
     transform: translatey(-5em);
-    transition: transform 2s;
+    transition: transform 5s;
 }
 
 .promos {
     display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+    width: 70%;
+    height: 50%;
 }
 
-.promo1 {
-    
+.promo1 img{
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    width: 100%;
 }
 
-.promo2 {
-    
+
+.promo2 img{
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    width: 100%;
 }
 
-.promo3 {
-    
+.promo3 img{
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    width: 100%;;
 }
+
