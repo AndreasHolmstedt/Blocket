@@ -21,7 +21,7 @@ body{
 }
 
 .navopt:nth-last-child(1){
-    margin-right: 3%;
+    margin-right: 3vw;
 }
 
 
@@ -31,7 +31,7 @@ body{
     left: 0px;
     width: 170px;
     margin: 5px;
-    margin-left: 10%;
+    margin-left: 15vw;
 }
 
 .navopt{
@@ -168,8 +168,9 @@ p {
     bottom: 7em;
     left: 80%;
     display: inline;
-    transform: translateX(-70vw);
-    transition: all 70s;
+    transform: translateX(-65vw);
+    transition: all 100s;
+    z-index: 10;
     content: url(resources/cloud1.png);
     width: 3em;
 }
@@ -179,14 +180,14 @@ p {
     bottom: 7em;
     left: 70%;
     display: inline;
-    transform: translateX(-70vw);
-    transition: all 100s;
+    transform: translateX(-50vw);
+    transition: all 150s;
     content: url(resources/cloud2.png);
     width: 3.4em;
 }
 
 .treeanimation1 {
-    margin-left: 10%;
+    margin-left: 10vw;
     display: inline;
     content: url(resources/tree1.png);
     width: 5em;
@@ -273,4 +274,47 @@ p {
     border-bottom: 1px solid grey;
     width: 100%;;
 }
+
+footer {
+  display: flex;
+    justify-content: space-around;
+  margin-top: 5em;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1em;
+  background-color: #efefef;
+  text-align: center;
+}
+
+h4 {
+    margin-bottom: .5em;
+}
+
+.socialmedia img {
+    display: inline;
+    width: 4em;
+    transition: all 1s
+}
+
+.socialmedia img:hover {
+    transform: rotate(360deg);
+    transition: all 1s
+}
+
+.footerinfo *{
+    font-weight: 100;
+    
+}
+
+.footerinfo *:hover{
+    background-color: bisque;
+    transition: background-color 1s;   
+}
+   
+
+
+
+
+
 
