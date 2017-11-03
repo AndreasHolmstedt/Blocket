@@ -309,12 +309,7 @@ h4 {
 
 .footerinfo *:hover{
     background-color: bisque;
-    transition: background-color 1s;   
+    transition: background-color 1s;
+    cursor: pointer;
 }
-   
-
-
-
-
-
 
