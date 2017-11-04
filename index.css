@@ -155,7 +155,7 @@ p {
     bottom: -3.8em;
     left: 13%;
     display: inline;
-    transform: translateX(50vw);
+    transform: translateX(53vw);
     transition: all 20s cubic-bezier(.85,.06,.34,.87);
     transition-delay: 10s;
     margin-left: 10%;
@@ -185,6 +185,7 @@ p {
     content: url(resources/cloud2.png);
     width: 3.4em;
 }
+
 
 .treeanimation1 {
     margin-left: 10vw;
@@ -277,7 +278,7 @@ p {
 
 footer {
   display: flex;
-    justify-content: space-around;
+ justify-content: space-around;
   margin-top: 5em;
   right: 0;
   bottom: 0;
@@ -312,4 +313,28 @@ h4 {
     transition: background-color 1s;
     cursor: pointer;
 }
+
+
+
+/*===================================
+        ANNONSER
+===================================*/
+
+
+.adverts {
+    
+    width: 70%;
+    margin-top: 5%;
+    margin-left: 15%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.adverts div{
+    min-width: 49%;
+    min-height: 40%;
+    background-color:aqua;
+    border: 1px solid black;
+}
+
 
