@@ -19,7 +19,7 @@ body{
     height: 3em;
     margin-bottom: 3em;
 }
-
+ 
 .navopt:nth-last-child(1){
     margin-right: 3vw;
 }
@@ -90,6 +90,8 @@ input {
     display: inline;
     border: 1px solid grey;
     transition: background-color 1s;
+    box-shadow: 3px 3px 1px lightgrey;
+ 
 }
 
 .sok:hover {
@@ -116,6 +118,8 @@ p {
     font-weight: 300;
     display: inline;
     border: 1px solid grey;
+    box-shadow: 3px 3px 1px lightgrey;
+ 
 }
 
 .laggtill img {
