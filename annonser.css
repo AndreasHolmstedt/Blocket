@@ -342,7 +342,7 @@ input {
     padding-bottom: .5em
 }
 
-.adverts div:hover{
+.adverts > div:hover{
     transform: scale(1.1);
     box-shadow: 1em 1em 1em lightgrey;
     transition: box-shadow 1s, transform 1s;
