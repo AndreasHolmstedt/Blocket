@@ -58,6 +58,11 @@ body{
     background-color: RGB(239, 64, 79)
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 main{
     text-align: center;
     margin-left: 10%;
